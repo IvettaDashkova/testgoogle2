@@ -1,4 +1,6 @@
 export const App = () => {
+  const apiKey = process.env.REACT_APP_APIKey
+  console.log('apiKey', apiKey);
   return (
     <div
       style={{
